@@ -1,0 +1,17 @@
+$ curl -X POST -H "Accept: application/vnd.github+json" -H "Authorization: Bearer $GITHUB_TOKEN" https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/forks
+
+{
+  "full_name": "M5CS1528/mcino-Introduction-to-Git-and-GitHub",
+  "name": "mcino-Introduction-to-Git-and-GitHub",
+  "owner": {
+    "login": "M5CS1528"
+  },
+  "private": false,
+  "fork": true,
+  "parent": {
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+  },
+  "source": {
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+  }
+}
