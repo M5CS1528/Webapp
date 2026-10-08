@@ -1,0 +1,5 @@
+$ git branch -vv
+
+  bug-fix-revert abc1234 [origin/bug-fix-revert] Revert "Fix typo"
+  bug-fix-typo   c4d5e6f [origin/bug-fix-typo] Fix typo in README.md
+* main           c4d5e6f [origin/main] Merge branch 'bug-fix-typo'
